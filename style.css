@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+.row {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    height: 100px;
+    gap: 1rem;
+}
+
+.row .col {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+}
